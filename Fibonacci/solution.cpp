@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int X, n1 = 0, n2 = 1, fb = 0, ig = 0, i;
-    cout << "Diga o número que vc deseja inserir" << endl;
+    cout << "Diga o numero que vc deseja inserir" << endl;
     cin >> X;
     if (X <= 1)
     {
@@ -22,11 +22,11 @@ int main()
     }
     if (ig >= 1)
     {
-        cout << "Esse número pertence à sequência" << endl;
+        cout << "Esse numero pertence a sequencia" << endl;
     }
     else
     {
-        cout << "Esse número nao pertence à sequência" << endl;
+        cout << "Esse numero nao pertence a sequencia" << endl;
     }
     return 0;
 }
